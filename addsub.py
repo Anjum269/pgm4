@@ -16,3 +16,7 @@ print("\nResults:")
 print("Addition =", addition)
 print("Subtraction =", subtraction)
 
+multiplication = num1 * num2
+division = num1 / num2 if num2 != 0 else "undefined (cannot divide by zero)"   
+print("Multiplication =", multiplication)       
+print("Division =", division)
